@@ -12,7 +12,7 @@ if (checkRegForm) {
     e.preventDefault();
     regTitle.remove();
     regContainer.innerHTML = `
-      <p class="m-auto2 t-center bg-blue blue p-10 width-85 radius-5">আপনার রেজিস্ট্রেশন সফল হয়েছে!<br>Registration id:123456789</p>
+      <p class="m-auto2 t-center bg-blue blue p-10 width-85 radius-5 font-20">আপনার রেজিস্ট্রেশন সফল হয়েছে!<br>Registration id:123456789</p>
       `;
   });
 }
