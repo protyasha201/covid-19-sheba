@@ -146,6 +146,14 @@ body {
     border: 1px solid black;
 }
 
+.border-none {
+    border: none;
+}
+
+.border-gray {
+    border: 1px rgb(159, 158, 158) solid;
+}
+
 /* border radius  */
 .radius-5 {
     border-radius: 5px;

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patients profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="titlePatient" class="t-center bg-blue shadow blue p-5 m-10 radius-5 montserrat">রোগীর তথ্য খুজুন</h1>
+    </header>
+    <main id="patientContainer">
+        <form class="width-90 shadow m-auto2 p-5 flex f-col row-gap-5">
+            <label id="name" class="flex f-col" for="name">
+                <h3 class="gray">রোগীর নামঃ</h3>
+                <input id="name" class="border-gray radius-5 shadow p-10 width-full" type="text"
+                    placeholder="রোগীর নাম">
+            </label>
+
+            <label id="nid" class="flex f-col" for="nid">
+                <h3 class="gray roboto">NID/জন্ম সনদ নাম্বার</h3>
+                <input id="nid" class="border-gray radius-5 shadow p-10 width-full" type="number"
+                    placeholder="জন্ম সনদ নাম্বার/NID">
+            </label>
+
+            <label id="registration number" class="flex f-col" for="registration number">
+                <h3 class="gray roboto">রেজিস্ট্রেশনের নাম্বারঃ
+                </h3>
+                <input id="registration number" class="border-gray radius-5 shadow p-10 width-full" type="text"
+                    placeholder="রেজিস্ট্রেশনের নাম্বার 
+                    ">
+            </label>
+            <button id="checkPatient" type="submit"
+                class="bg-blue border-none p-10 blue font-20 pointer m-10 radius-5">রোগীর তথ্য দেখুন</button>
+        </form>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
