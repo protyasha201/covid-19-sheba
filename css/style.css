@@ -1,0 +1,206 @@
+/* sizing of body and all */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* fonts */
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* colors */
+.white {
+    color: white;
+}
+
+.green {
+    color: rgb(13, 90, 13);
+}
+
+.blue {
+    color: rgba(28, 28, 83, 0.884);
+}
+
+.red {
+    color: rgb(191, 56, 56);
+}
+
+.gray {
+    color: rgb(79, 78, 78);
+}
+
+.yellow {
+    color: rgb(106, 106, 19);
+}
+
+/* background colors */
+.bg-green {
+    background-color: rgba(193, 253, 193, 0.925);
+}
+
+.bg-red {
+    background-color: rgba(255, 177, 177, 0.932);
+}
+
+.bg-blue {
+    background-color: rgb(189, 189, 255);
+}
+
+.bg-gray {
+    background-color: rgba(128, 128, 128, 0.177);
+}
+
+.bg-yellow {
+    background-color: rgb(251, 251, 139);
+}
+
+/* cursor */
+.pointer {
+    cursor: pointer;
+}
+
+/* shadows */
+.shadow {
+    box-shadow: 5px 5px 10px rgba(184, 177, 177, 0.333);
+}
+
+
+/* text aligns */
+.t-center {
+    text-align: center;
+}
+
+/* padding */
+
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+/* margin */
+.m-5 {
+    margin: 5px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.mt-5 {
+    margin-top: 5%;
+}
+
+.mt-10 {
+    margin-top: 10%;
+}
+
+.m-auto1 {
+    margin: 0% auto;
+}
+
+.m-auto2 {
+    margin: 10% auto;
+}
+
+
+/* width  */
+.width-100 {
+    width: 100%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.width-95 {
+    width: 95%;
+}
+
+.width-85 {
+    width: 85%;
+}
+
+
+.width-80 {
+    width: 80%;
+}
+
+
+/* border */
+.border {
+    border: 1px solid black;
+}
+
+/* border radius  */
+.radius-5 {
+    border-radius: 5px;
+}
+
+.radius-10 {
+    border-radius: 10px;
+}
+
+
+/* flex  */
+.flex {
+    display: flex;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+.f-row {
+    flex-direction: row;
+}
+
+.f-center {
+    align-items: center;
+}
+
+.col-gap-10 {
+    column-gap: 10px;
+}
+
+.row-gap-10 {
+    row-gap: 10px;
+}
+
+.row-gap-15 {
+    row-gap: 15px;
+}
+
+/* font-size */
+.font-15 {
+    font-size: 15px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+/* font-weight */
+.fw-bold {
+    font-weight: bold;
+}
+
+
+/* display  */
+.block {
+    display: block;
+}
