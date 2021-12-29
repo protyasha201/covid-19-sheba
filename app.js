@@ -1,14 +1,14 @@
 // getting id's
 const regContainer = document.getElementById("regContainer");
 const regTitle = document.getElementById("regTitle");
-const checkRegForm = document.getElementById("checkRegForm");
+const regForm = document.getElementById("regForm");
 const patientContainer = document.getElementById("patientContainer");
-const checkPatient = document.getElementById("checkPatient");
 const titlePatient = document.getElementById("titlePatient");
+const patientForm = document.getElementById("patientForm");
 
-// // listeners
-if (checkRegForm) {
-  checkRegForm.addEventListener("click", (e) => {
+// listeners
+if (regForm) {
+  regForm.addEventListener("submit", (e) => {
     e.preventDefault();
     regTitle.remove();
     regContainer.innerHTML = `
@@ -17,8 +17,8 @@ if (checkRegForm) {
   });
 }
 
-if (checkPatient) {
-  checkPatient.addEventListener("click", (e) => {
+if (patientForm) {
+  patientForm.addEventListener("submit", (e) => {
     e.preventDefault();
     titlePatient.innerText = "রোগীর তথ্য";
     patientContainer.innerHTML = `
