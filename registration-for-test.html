@@ -15,30 +15,30 @@
     </header>
 
     <main id="regContainer">
-        <form class="width-90 shadow m-auto2 p-5 flex f-col row-gap-5">
+        <form id="regForm" class="width-90 shadow m-auto2 p-5 flex f-col row-gap-5">
             <label id="name" class="flex f-col" for="name">
                 <h3 class="gray">নিবন্ধনকারীর নামঃ</h3>
-                <input id="name" class="border-gray radius-5 shadow p-10 width-full" type="text"
+                <input required id="name" class="border-gray radius-5 shadow p-10 width-full" type="text"
                     placeholder="নিবন্ধনকারীর নাম">
             </label>
 
             <label id="age" class="flex f-col" for="age">
                 <h3 class="gray">বয়সঃ</h3>
-                <input id="age" class="border-gray radius-5 shadow p-10 width-full" type="number"
+                <input required id="age" class="border-gray radius-5 shadow p-10 width-full" type="number"
                     placeholder="নিবন্ধনকারীর বয়স">
             </label>
 
             <label id="nid" class="flex f-col" for="nid">
                 <h3 class="gray roboto">NID নম্বর/জন্ম সনদের নাম্বারঃ
                 </h3>
-                <input id="nid" class="border-gray radius-5 shadow p-10 width-full" type="text" placeholder="NID নম্বর/জন্ম সনদের নাম্বারঃ
+                <input required id="nid" class="border-gray radius-5 shadow p-10 width-full" type="text" placeholder="NID নম্বর/জন্ম সনদের নাম্বার
                     ">
             </label>
 
             <label id="zilla" class="flex f-col" for="zilla">
                 <h3 class="gray roboto">জেলাঃ
                 </h3>
-                <input id="zilla" class="border-gray radius-5 shadow p-10 width-full" type="text" placeholder="জেলা
+                <input required id="zilla" class="border-gray radius-5 shadow p-10 width-full" type="text" placeholder="জেলা
                     ">
             </label>
             <button id="checkRegForm" type="submit"

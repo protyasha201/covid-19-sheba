@@ -45,6 +45,7 @@ body {
     color: rgb(106, 106, 19);
 }
 
+
 /* background colors */
 .bg-green {
     background-color: rgba(193, 253, 193, 0.925);
@@ -66,6 +67,10 @@ body {
     background-color: rgb(251, 251, 139);
 }
 
+.bg-purple {
+    background-color: rgb(200, 152, 251);
+}
+
 /* cursor */
 .pointer {
     cursor: pointer;
@@ -73,7 +78,7 @@ body {
 
 /* shadows */
 .shadow {
-    box-shadow: 5px 5px 10px rgba(184, 177, 177, 0.333);
+    box-shadow: 5px 5px 10px rgba(202, 200, 200, 0.319);
 }
 
 
@@ -211,4 +216,35 @@ body {
 /* display  */
 .block {
     display: block;
+}
+
+/* responsiveness */
+@media screen and (min-width: 600px) {
+    #mainOfHome {
+        width: 500px;
+    }
+
+    main {
+        margin: 0% auto;
+        width: 500px;
+    }
+
+    header {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    #healthServiceSection {
+        width: 550px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    #headOfHome {
+        margin-top: 10%;
+    }
+
+    #mainOfHome {
+        margin: 5% auto;
+    }
 }

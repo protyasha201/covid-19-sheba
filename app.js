@@ -6,7 +6,7 @@ const patientContainer = document.getElementById("patientContainer");
 const checkPatient = document.getElementById("checkPatient");
 const titlePatient = document.getElementById("titlePatient");
 
-// listeners
+// // listeners
 if (checkRegForm) {
   checkRegForm.addEventListener("click", (e) => {
     e.preventDefault();
